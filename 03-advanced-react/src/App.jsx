@@ -1,13 +1,15 @@
-import Starter from   './tutorial/05-leverage-javascript/starter/List'
-import Final from     './tutorial/02-useEffect/starter/05-cleanup-function'
-import List from './tutorial/05-leverage-javascript/starter/List';
+import Starter from  './tutorial/09-context-api/starter/Navbar'
+import Final from    './tutorial/08-custom-hooks/final/02-fetch-data'
+import Navbar from './tutorial/09-context-api/starter/Navbar';
+
+
 
 function App() {
   return (
-    <div className='container'>
-      {/* <Starter />
-      <Final /> */}
-      <List />
+    <div className='nav-container'>
+      {/* <Starter /> */}
+      {/* <Final /> */}
+      <Navbar />
     </div>
   );
 }
