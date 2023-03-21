@@ -310,7 +310,8 @@ ul {
 .nav-container {
   display: flex;
   justify-content: space-between;
-  max-width: 400px;
+  max-width: 100%;
+  /* background-color: lightblue; */
 }
 .nav-links {
   display: flex;

@@ -3,14 +3,14 @@ import UserContainer from "./UserContainer";
 
 function NavLinks({ user, setUser, logout }) {
   return (
-    <>
-      <div>
-        <button>Home</button>
-        <button>About</button>
-      </div>
+    <div className="nav-container">
+      <ul className="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
       <UserContainer user={user} setUser={setUser} logout={logout} />
 
-    </>
+    </div>
   );
 }
 
